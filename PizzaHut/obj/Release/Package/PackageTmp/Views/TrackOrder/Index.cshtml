@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layoutSite.cshtml";
+}
+<section class="breadcrumb-section bg-white">
+    <h2 class="sr-only">Site Breadcrumb</h2>
+    <div class="container">
+        <div class="breadcrumb-contents">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="~/">Trang chủ</a></li>
+                    <li class="breadcrumb-item active">Theo dõi đơn hàng</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</section>
+<main class=" inner-page-sec-padding-bottom ">
+    <div class="container">
+        <div class="card p-5">
+            <div class="row ">
+                <div class="col justify-content-center">
+                    <form action="" method="post">
+                        <div class="col-12 mb--20 ">
+                            <label for="email">Nhập vào SDT đặt hàng</label>
+                            <input class="mb-0 form-control" type="text" name="phone" value="" placeholder="SDT nhận hàng." required>
+                        </div>
+                        <div class="col-md-5 ">
+                            <button type="submit" class="btn btn-outlined ">Xem</button>
+                        </div>                     
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+	
+<!--=============

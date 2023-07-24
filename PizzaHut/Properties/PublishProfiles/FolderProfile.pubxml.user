@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\hungdeptrai\Desktop\WebSite</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Areas/Admin/Views/Auth/_information.cshtml">
+      <publishTime>10/24/2020 00:28:41</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Auth/_login.cshtml">
+      <publishTime>10/24/2020 00:43:00</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Category/Create.cshtml">
+      <publishTime>10/24/2020 00:27:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Category/Edit.cshtml">
+      <publishTime>10/24/2020 00:27:15</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Category/Index.cshtml">
+      <publishTime>10/24/2020 00:27:19</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Category/Trash.cshtml">
+      <publishTime>10/24/2020 00:27:22</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Contact/Details.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Contact/Index.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Contact/Trash.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Dashboard/Index.cshtml">
+      <publishTime>10/24/2020 13:51:48</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Dashboard/_information.cshtml">
+      <publishTime>10/24/2020 00:27:32</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Dashboard/_Statistical.cshtml">
+      <publishTime>07/28/2020 18:49:59</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Dashboard/_userNav.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Menu/Edit.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Menu/Index.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Menu/Trash.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/Index.cshtml">
+      <publishTime>10/25/2020 08:59:30</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/Orderdetail.cshtml">
+      <publishTime>10/25/2020 08:59:47</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Orders/Trash.cshtml">
+      <publishTime>10/24/2020 00:27:49</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Post/Create.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Post/Details.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Post/Edit.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Post/Index.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Post/Trash.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Products/Create.cshtml">
+      <publishTime>10/24/2020 00:27:53</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Products/Details.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Products/Edit.cshtml">
+      <publishTime>10/24/2020 00:27:56</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Products/Index.cshtml">
+      <publishTime>10/24/2020 00:27:59</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Products/Trash.cshtml">
+      <publishTime>10/24/2020 00:28:03</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/401.cshtml">
+      <publishTime>10/24/2020 00:28:28</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_LayoutAdmin.cshtml">
+      <publishTime>09/13/2020 21:17:37</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_leftMenu.cshtml">
+      <publishTime>10/23/2020 23:10:37</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_mainmenu.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_MessgeAlert.cshtml">
+      <publishTime>07/19/2020 16:00:51</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Shared/_topMenu.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Slider/Create.cshtml">
+      <publishTime>07/19/2020 15:59:18</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Slider/Edit.cshtml">
+      <publishTime>07/19/2020 15:55:10</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Slider/Index.cshtml">
+      <publishTime>07/19/2020 15:57:59</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Slider/Trash.cshtml">
+      <publishTime>07/19/2020 15:58:07</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Topic/Create.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Topic/Edit.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Topic/Index.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/Topic/Trash.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/User/Create.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/User/Edit.cshtml">
+      <publishTime>07/26/2020 14:04:50</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/User/Index.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/User/Trash.cshtml">
+      <publishTime>07/19/2020 00:36:12</publishTime>
+    </File>
+    <File Include="Areas/Admin/Views/web.config">
+      <publishTime>10/24/2020 00:55:58</publishTime>
+    </File>
+    <File Include="bin/Bookstore2020.dll">
+      <publishTime>09/13/2020 21:49:19</publishTime>
+    </File>
+    <File Include="bin/Bookstore2020.pdb">
+      <publishTime>09/13/2020 21:49:19</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>09/11/2013 09:10:04</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>09/11/2013 09:10:04</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>11/28/2019 17:25:37</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 11:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/28/2019 17:25:37</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>09/30/2013 17:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>09/30/2013 18:15:20</publishTime>
+    </File>
+    <File Include="bin/PizzaHut.dll">
+      <publishTime>10/25/2020 09:22:45</publishTime>
+    </File>
+    <File Include="bin/PizzaHut.pdb">
+      <publishTime>10/25/2020 09:22:45</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>02/01/2018 12:16:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>02/01/2018 12:16:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>02/01/2018 12:20:56</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>07/26/2020 20:02:49</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>07/18/2020 22:29:55</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/24/2020 00:24:59</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>07/25/2020 21:03:49</publishTime>
+    </File>
+    <File Include="Views/AuthCus/loginEndRegister.cshtml">
+      <publishTime>10/24/2020 13:58:01</publishTime>
+    </File>
+    <File Include="Views/Cart/Index.cshtml">
+      <publishTime>10/24/2020 20:40:04</publishTime>
+    </File>
+    <File Include="Views/Cart/_cartHeader.cshtml">
+      <publishTime>10/24/2020 14:53:15</publishTime>
+    </File>
+    <File Include="Views/Checkout/cancel_order.cshtml">
+      <publishTime>10/24/2020 23:30:28</publishTime>
+    </File>
+    <File Include="Views/Checkout/confirm_orderPaymentOnline.cshtml">
+      <publishTime>10/24/2020 23:31:11</publishTime>
+    </File>
+    <File Include="Views/Checkout/Index.cshtml">
+      <publishTime>10/24/2020 23:08:49</publishTime>
+    </File>
+    <File Include="Views/Checkout/oderComplete.cshtml">
+      <publishTime>10/24/2020 23:32:46</publishTime>
+    </File>
+    <File Include="Views/Checkout/PaymentView.cshtml">
+      <publishTime>10/24/2020 22:56:51</publishTime>
+    </File>
+    <File Include="Views/Checkout/_formCheckout.cshtml">
+      <publishTime>10/24/2020 23:04:49</publishTime>
+    </File>
+    <File Include="Views/Checkout/_productDetailCheckOut.cshtml">
+      <publishTime>10/24/2020 20:56:00</publishTime>
+    </File>
+    <File Include="Views/Checkout/_subproductOrdersuccess.cshtml">
+      <publishTime>10/24/2020 20:55:51</publishTime>
+    </File>
+    <File Include="Views/Custommer/Index.cshtml">
+      <publishTime>10/24/2020 14:53:44</publishTime>
+    </File>
+    <File Include="Views/Custommer/_formEditCustomer.cshtml">
+      <publishTime>07/26/2020 17:48:55</publishTime>
+    </File>
+    <File Include="Views/ForeverProduct/favoriteList.cshtml">
+      <publishTime>07/28/2020 18:14:22</publishTime>
+    </File>
+    <File Include="Views/Modules/mobile_mainmenu.cshtml">
+      <publishTime>10/24/2020 13:58:01</publishTime>
+    </File>
+    <File Include="Views/Modules/_category.cshtml">
+      <publishTime>10/24/2020 16:07:20</publishTime>
+    </File>
+    <File Include="Views/Modules/_footer.cshtml">
+      <publishTime>10/24/2020 16:05:43</publishTime>
+    </File>
+    <File Include="Views/Modules/_header.cshtml">
+      <publishTime>10/24/2020 16:06:06</publishTime>
+    </File>
+    <File Include="Views/Modules/_mainmenu.cshtml">
+      <publishTime>10/24/2020 14:53:55</publishTime>
+    </File>
+    <File Include="Views/Modules/_mobie_category.cshtml">
+      <publishTime>10/24/2020 16:07:08</publishTime>
+    </File>
+    <File Include="Views/Modules/_mobile-mainmenu.cshtml">
+      <publishTime>10/24/2020 16:07:07</publishTime>
+    </File>
+    <File Include="Views/Modules/_moblie_SubmainMenu1.cshtml">
+      <publishTime>10/24/2020 16:07:05</publishTime>
+    </File>
+    <File Include="Views/Modules/_slider.cshtml">
+      <publishTime>10/24/2020 16:07:02</publishTime>
+    </File>
+    <File Include="Views/Modules/_submainmenu1.cshtml">
+      <publishTime>10/24/2020 16:06:50</publishTime>
+    </File>
+    <File Include="Views/Modules/_submainmenu2.cshtml">
+      <publishTime>10/24/2020 16:06:57</publishTime>
+    </File>
+    <File Include="Views/Shared/_layoutSite.cshtml">
+      <publishTime>10/24/2020 15:51:10</publishTime>
+    </File>
+    <File Include="Views/Shared/_MessgeAlertc.cshtml">
+      <publishTime>10/24/2020 13:58:01</publishTime>
+    </File>
+    <File Include="Views/Site/allProduct.cshtml">
+      <publishTime>10/24/2020 16:49:57</publishTime>
+    </File>
+    <File Include="Views/Site/buyWithProduct.cshtml">
+      <publishTime>10/24/2020 15:08:40</publishTime>
+    </File>
+    <File Include="Views/Site/contact.cshtml">
+      <publishTime>07/27/2020 10:42:45</publishTime>
+    </File>
+    <File Include="Views/Site/home.cshtml">
+      <publishTime>10/24/2020 16:44:23</publishTime>
+    </File>
+    <File Include="Views/Site/page404.cshtml">
+      <publishTime>10/24/2020 16:37:44</publishTime>
+    </File>
+    <File Include="Views/Site/post.cshtml">
+      <publishTime>07/28/2020 21:28:21</publishTime>
+    </File>
+    <File Include="Views/Site/postDetaail.cshtml">
+      <publishTime>07/27/2020 18:48:22</publishTime>
+    </File>
+    <File Include="Views/Site/ProductDetail.cshtml">
+      <publishTime>10/25/2020 08:56:32</publishTime>
+    </File>
+    <File Include="Views/Site/reladProduct.cshtml">
+      <publishTime>10/24/2020 16:38:01</publishTime>
+    </File>
+    <File Include="Views/Site/_flashSale.cshtml">
+      <publishTime>10/24/2020 16:36:54</publishTime>
+    </File>
+    <File Include="Views/Site/_homeBookOfCategory.cshtml">
+      <publishTime>10/24/2020 16:36:29</publishTime>
+    </File>
+    <File Include="Views/Site/_postHome.cshtml">
+      <publishTime>07/28/2020 21:30:21</publishTime>
+    </File>
+    <File Include="Views/Site/_product_dealOfDay.cshtml">
+      <publishTime>10/24/2020 16:37:32</publishTime>
+    </File>
+    <File Include="Views/TrackOrder/DetailOrder.cshtml">
+      <publishTime>10/24/2020 23:33:39</publishTime>
+    </File>
+    <File Include="Views/TrackOrder/Index.cshtml">
+      <publishTime>10/24/2020 20:16:19</publishTime>
+    </File>
+    <File Include="Views/TrackOrder/listOrders.cshtml">
+      <publishTime>10/25/2020 09:08:02</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>10/24/2020 14:52:22</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/25/2020 09:22:45</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

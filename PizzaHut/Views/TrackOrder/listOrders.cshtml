@@ -1,0 +1,65 @@
+﻿@model IEnumerable<PizzaHut.Models.Morder>
+@{
+    ViewBag.Title = "listOrders";
+    Layout = "~/Views/Shared/_layoutSite.cshtml";
+}
+<div class="container bg-white mb-5">
+    <div class="page-section-title">
+        <h1>Theo dõi đơn hàng</h1>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <form action="#" class="">
+                <!-- Cart Table -->
+                <div class="cart-table table-responsive mb--40">
+                    <table class="table">
+                        <!-- Head Row -->
+                        <thead>
+                            <tr>
+                                <th class="pro-remove">Mã</th>
+                                <th class="pro-thumbnail">Tên khách hàng</th>
+                                <th class="pro-title">Trạng thái</th>
+                                <th class="pro-price">Địa chỉ</th>
+                                <th class="pro-quantity">Số điện thoại</th>
+                                <th class="pro-subtotal">Thời gian đặt</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <spam class="text-danger"> </spam>
+                            <!-- Product Row -->
+
+                            @{ float sum = 0;
+                            }
+                            @foreach (var item in Model)
+                            {
+
+                        <tr>
+                            <td class="pro-remove">
+                                <a href="javascript:void(0);"> @item.ID</a>
+                            </td>
+                            <td class="pro-thumbnail">
+                                <span>@item.deliveryname</span>
+
+                            </td>
+                            <td class="pro-quantity">
+
+                                <span class="text-danger">Chờ duyệt</span>
+                            </td>
+                            <td class="pro-thumbnail">
+                                <span>@item.deliveryaddress</span>
+                            </td>
+                            <td class="pro-thumbnail">
+                                <span>@item.deliveryphone</span>
+                            </td>
+                            <td class="pro-thumbnail">
+                                <span>@item.updated_at</span>
+                            </td>
+                        </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

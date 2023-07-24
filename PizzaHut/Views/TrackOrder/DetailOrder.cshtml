@@ -1,0 +1,46 @@
+﻿@model PizzaHut.Models.Morder
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_layoutSite.cshtml";
+}
+<section class="breadcrumb-section">
+    <h2 class="sr-only">Site Breadcrumb</h2>
+    <div class="container bg-white">
+        <div class="breadcrumb-contents">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="~/">Trang chủ</a></li>
+                    <li class="breadcrumb-item active">Thông tin đơn hàng</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<!-- order complete Page Start -->
+<section class="order-complete inner-page-sec-padding-bottom">
+    <div class="container bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="order-complete-message text-center">
+                    <h1>Chào bạn!</h1>
+                    <p>Thông tin chi tiết đơn hàng của bạn.</p>
+                </div>
+                <ul class="order-details-list">
+                    <li>Mã đơn hàng: <strong>@Model.ID</strong></li>
+                    <li>Tên khách hàng: <strong>@Model.deliveryname</strong></li>
+                    <li>Số thiện thoại: <strong>@Model.deliveryphone</strong></li>
+                    <li>Email: <strong>@Model.deliveryemail</strong></li>
+                    <li>địa chỉ nhận hàng: <strong>@Model.deliveryaddress</strong></li>
+                    <li>Ngày đặt hàng: <strong>@Model.created_ate</strong></li>
+                    <li>Phương thức thanh toán: <strong>Ship Code</strong></li>
+                </ul>
+                <p>Thanh toán bằng tiền mặt khi giao hàng.</p>
+                <h3 class="order-table-title">Chi tiết đơn hàng</h3>
+                <div class="table-responsive">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
